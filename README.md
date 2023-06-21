@@ -1,5 +1,5 @@
 # HSTNet for remote sensing image super-resolution
-Official Pytorch implementation of the paper "[Transformer-based Multi-Stage Enhancement for Remote Sensing Image Super-Resolution](https://ieeexplore.ieee.org/document/9654169)" accepted by IEEE TGRS.  
+Official Pytorch implementation of the paper "[Hybrid-Scale Hierarchical Transformer for Remote Sensing Image Super-Resolution].
 
 Super-resolution (SR) technology plays a crucial role in improving the spatial resolution of remote sensing images so as to overcome the physical limitations of spaceborne imaging systems. Although deep convolutional neural networks have achieved promising results, most of them overlook the advantage of self-similarity information across different scales and high-dimensional features after the upsampling layers. To address the problem, we propose a hybrid-scale hierarchical transformer network~(HSTNet) to achieve faithful remote sensing image SR. Specifically, we propose a hybrid-scale feature exploitation module to leverage the internal recursive information in single and cross scales within the images. To fully leverage the high-dimensional features and enhance discrimination, we design a cross-scale enhancement transformer to capture long-range dependencies and efficiently calculate the relevance between high-dimension and low-dimension features. The proposed HSTNet achieves the best result in PSNR and SSIM on UCMecred dataset and AID dataset. Comparative experiments demonstrate the effectiveness of the proposed methods and prove that the HSTNet outperforms the state-of-the-art competitors both in quantitative and qualitative evaluations.
 
@@ -54,17 +54,6 @@ cd metric_scripts
 python calculate_PSNR_SSIM.py
 ```
 
-## Citation 
-If you find this code useful for your research, please cite our paper:
-``````
-@article{lei2021transformer,
-  title={Transformer-based Multi-Stage Enhancement for Remote Sensing Image Super-Resolution},
-  author={Lei, Sen and Shi, Zhenwei and Mo, Wenjing},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2021},
-  publisher={IEEE}
-}
-``````
 
 ## Acknowledgements 
 This code is built on [TransENet (Pytorch)](https://github.com/Shaosifan/TransENet). We thank the authors for sharing the codes.  
