@@ -57,7 +57,23 @@ Compute the evaluated results in term of PSNR and SSIM, where the SR/HR paths ca
 cd metric_scripts 
 python calculate_PSNR_SSIM.py
 ```
+## Performance
 
+#### Quantitative Results
+![](figs/Table2.png)
+![](figs/Table3.png)
+![](figs/Table4.png)
+Quantitative evaluation under scale factors x2, x3 and x4. The best performance is shown in **bold** and the second best performance is <u>underlined</u>.
+
+#### More Qualitative Results (x4)
+
+![](figs/Figure6.png)
+
+![](figs/Figure7.png)
+
+![](figs/Figure8.png)
+
+![](figs/Figure9.png)
 
 ## Acknowledgements 
 This code is built on [TransENet (Pytorch)](https://github.com/Shaosifan/TransENet). We thank the authors for sharing the codes.  
