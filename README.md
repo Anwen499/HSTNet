@@ -61,12 +61,13 @@ python calculate_PSNR_SSIM.py
 
 #### Quantitative Results
 ![](figs/Table2.png)
-Comparative results on the UCMerced dataset and AID dataset. The best and the second-best results are marked in \textcolor{red}{red} and \textcolor{blue}{blue}, respectively.
-![](figs/Table3.png)
-![](figs/Table4.png)
-Quantitative evaluation under scale factors x2, x3 and x4. The best performance is shown in **bold** and the second best performance is <u>underlined</u>.
 
-#### More Qualitative Results (x4)
+![](figs/Table3.png)
+
+![](figs/Table4.png)
+
+
+#### More Qualitative Results
 
 ![](figs/Figure6.png)
 
